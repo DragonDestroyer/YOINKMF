@@ -1,5 +1,5 @@
 # Progress Knight Quest
 
-A continuation of Progress Knight 2.0. Contains 5 prestige layers with various unique mechanics.
+A continuation of Progress Knight Quest. 3 more milestone layers.
 
-PRs which fix bugs are welcome :)
+Any feedback is welcome. (I'm new at this)
