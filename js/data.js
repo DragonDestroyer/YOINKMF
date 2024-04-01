@@ -310,6 +310,11 @@ const itemBaseData = {
     "Desintegration": { name: "Desintegration", expense: 1e55, effect: 1, description: "Dark Matter Gain", heromult: 30, heroeffect: 100 },
     "Custom Galaxy": { name: "Custom Galaxy", expense: 1e64, effect: 1, description: "Skill XP", heromult: 30, heroeffect: 1e100 },
     "Hypersphere": { name: "Hypersphere", expense: 1e91, effect: 1, description: "Hypercube Gain", heromult: 30, heroeffect: 1e50 },
+    "Aquanin Super Canon": { name: "Aquanin Super Canon", expense: 1e92, effect: 10, description: "Happiness", heromult: 30, heroeffect: 1e100 },
+    "Terranin Control Unit": { name: "Terranin Control Unit", expense: 1e93, effect: 1, description: "Dark Matter Gain", heromult: 30, heroeffect: 1e100 },
+    "Illuminin Core Shield": { name: "Illuminin Core Shield", expense: 1e94, effect: 1, description: "Essence Gain", heromult: 30, heroeffect: 1e100 },
+    "C.R.E.S. Planet Shield": { name: "C.R.E.S. Planet Shield", expense: 1e95, effect: 1, description: "Small Hypercube Gain", heromult: 30, heroeffect: 1e100 },
+    "Hadalen Essence": { name: "Hadalen Essence", expense: 1e105, effect: 1, description: "HUGE Hypercube Gain", heromult: 30, heroeffect: 1e100 },
 }
 
 const requirementsBaseData = {
