@@ -500,7 +500,7 @@ const requirementsBaseData = {
     "Boötes Void": new CoinRequirement([getQuerySelector("Boötes Void")], [{ requirement: 1e152 }]),
     
     // mythical properties
-    "Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: itemBasedata["Aquanin Core"].expense * 100 }]),
+    "Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: 1e155 }]),
     //"Terranin Core": new CoinRequirement([getQuerySelector("Terranin Core")], [{ requirement: itemBasedata["Terranin Core"].expense * 100 }]),
     //"Illuminin Core": new CoinRequirement([getQuerySelector("Illuminin Core")], [{ requirement: itemBasedata["Illuminin Core"].expense * 100 }]),
     //"C.R.E.S. Core": new CoinRequirement([getQuerySelector("C.R.E.S. Core")], [{ requirement: itemBasedata["C.R.E.S. Core"].expense * 100 }]),
