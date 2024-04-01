@@ -217,5 +217,5 @@ const tooltips = {
     
     // Mythical Milestones
     "A New Path": "You thought you were free",
-    "Compacted Dark Orbs": "You've collected so many dark orbs. You try to save space by fitting an infinite amount of dark orbs into a small space."
+    "The Monolith": "Someone or something is watching..."
 }
