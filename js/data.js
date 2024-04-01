@@ -191,10 +191,10 @@ const jobBaseData = {
 }
 
 const skillBaseData = {
-    "Concentration": { name: "Concentration", maxXp: 100, heroxp: 36, effect: 0.01, description: "Skill XP" },
+    "Concentration": { name: "Concentration", maxXp: 100, heroxp: 36, effect: 1, description: "Skill XP" },
     "Productivity": { name: "Productivity", maxXp: 100, heroxp: 37, effect: 0.01, description: "Hero XP" },
     "Bargaining": { name: "Bargaining", maxXp: 100, heroxp: 38, effect: -0.01, description: "Reduced Expenses" },
-    "Meditation": { name: "Meditation", maxXp: 100, heroxp: 39, effect: 0.01, description: "Happiness" },
+    "Meditation": { name: "Meditation", maxXp: 100, heroxp: 39, effect: 1000, description: "Happiness" },
 
     "Strength": { name: "Strength", maxXp: 100, heroxp: 40, effect: 0.01, description: "Military Pay" },
     "Battle Tactics": { name: "Battle Tactics", maxXp: 100, heroxp: 41, effect: 0.01, description: "Military XP" },
