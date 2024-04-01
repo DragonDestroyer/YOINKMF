@@ -278,6 +278,13 @@ const itemBaseData = {
     "Quantum World": { name: "Quantum World", expense: 1e49, effect: 1000000000000, heromult: 40, heroeffect: 1e64 },
     "Boötes Void": { name: "Boötes Void", expense: 3e74, effect: 1000000000000, heromult: 40, heroeffect: 1e80 },
 
+    // Mythical Property
+    "Aquanin Core": { name: "Aquanin Core", expense: 3e77, effect: 1000000000000000, heromult: 42, heroeffect: 1e84 },
+    "Terranin Core": { name: "Terranin Core", expense: 3e80, effect: 1000000000000000000, heromult: 42, heroeffect: 1e86 },
+    "Illuminin Core": { name: "Illuminin Core", expense: 3e83, effect: 1000000000000000000000, heromult: 42, heroeffect: 1e88 },
+    "C.R.E.S. Core": { name: "C.R.E.S. Core", expense: 3e87, effect: 10000000000000000000000000, heromult: 43, heroeffect: 1e90 },
+    "Vitrin Space": { name: "Vitrin Space", expense: 3e95, effect: 100000000000000000000000000000, heromult: 45, heroeffect: 1e95 },
+
     // Misc
     "Book": { name: "Book", expense: 10, effect: 1.5, description: "Skill XP", heromult: 2, heroeffect: 10 },
     "Dumbbells": { name: "Dumbbells", expense: 50, effect: 1.5, description: "Strength XP", heromult: 2, heroeffect: 10 },
@@ -481,6 +488,12 @@ const requirementsBaseData = {
     "Spaceship": new CoinRequirement([getQuerySelector("Spaceship")], [{ requirement: itemBaseData["Spaceship"].expense * 100 }]),
     "Planet": new CoinRequirement([getQuerySelector("Planet")], [{ requirement: itemBaseData["Planet"].expense * 100 }]),
     "Ringworld": new CoinRequirement([getQuerySelector("Ringworld")], [{ requirement: itemBaseData["Ringworld"].expense * 100 }]),
+    
+    "Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: itemBasedata["Aquanin Core"].expense * 100 }]),
+    "Terranin Core": new CoinRequirement([getQuerySelector("Terranin Core")], [{ requirement: itemBasedata["Terranin Core"].expense * 100 }]),
+    "Illuminin Core": new CoinRequirement([getQuerySelector("Illuminin Core")], [{ requirement: itemBasedata["Illuminin Core"].expense * 100 }]),
+    "C.R.E.S. Core": new CoinRequirement([getQuerySelector("C.R.E.S. Core")], [{ requirement: itemBasedata["C.R.E.S. Core"].expense * 100 }]),
+    "Vitrin Space": new CoinRequirement([getQuerySelector("Vitrin Space")], [{ requirement: itemBasedata["Vitrin Space"].expense * 100 }]),
 
     // heroic only Properties
     "Stellar Neighborhood": new CoinRequirement([getQuerySelector("Stellar Neighborhood")], [{ requirement: 1e65 }]),
@@ -588,7 +601,7 @@ const skillCategories = {
 }
 
 const itemCategories = {
-    "Properties": ["Homeless", "Tent", "Wooden Hut", "Cottage", "House", "Large House", "Small Palace", "Grand Palace", "Town Ruler", "City Ruler", "Nation Ruler", "Pocket Dimension", "Void Realm", "Void Universe", "Astral Realm", "Galactic Throne", "Spaceship", "Planet", "Ringworld", "Stellar Neighborhood", "Galaxy", "Supercluster", "Galaxy Filament", "Observable Universe", "Multiverse", "Quantum World", "Boötes Void"],
+    "Properties": ["Homeless", "Tent", "Wooden Hut", "Cottage", "House", "Large House", "Small Palace", "Grand Palace", "Town Ruler", "City Ruler", "Nation Ruler", "Pocket Dimension", "Void Realm", "Void Universe", "Astral Realm", "Galactic Throne", "Spaceship", "Planet", "Ringworld", "Stellar Neighborhood", "Galaxy", "Supercluster", "Galaxy Filament", "Observable Universe", "Multiverse", "Quantum World", "Boötes Void", "Aquanin Core", "Terranin Core", "Illuminin Core", "C.R.E.S. Core", "Vitrin Space"],
     "Misc": ["Book", "Dumbbells", "Personal Squire", "Steel Longsword", "Butler", "Sapphire Charm", "Study Desk", "Library", "Observatory", "Mind's Eye", "Void Necklace", "Void Armor", "Void Blade", "Void Orb", "Void Dust", "Celestial Robe", "Universe Fragment", "Multiverse Fragment", "Stairway to heaven", "Highway to hell", "Tesseract", "Desintegration", "Custom Galaxy", "Hypersphere"]
 }
 
@@ -614,7 +627,8 @@ const headerRowColors = {
     "Heroic Milestones": "#ff6600",
     "Dark Milestones": "#873160",
     "Metaverse Milestones": "#09a0e6",
-    "Metaverse Guards": "rgb(9, 160, 230)"
+    "Metaverse Guards": "rgb(9, 160, 230)",
+    "Mythical Milestones": "#520A7C",
 }
 
 const headerRowTextColors = {
@@ -640,6 +654,7 @@ const headerRowTextColors = {
     "Dark Milestones": "purple",
     "Metaverse Milestones": "purple",
     "Metaverse Guards": "purple",
+    "Mythical Milestones": "purple",
 }
 
 function getPreviousTaskInCategory(task) {
