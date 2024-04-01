@@ -45,8 +45,8 @@ const milestoneBaseData = {
     "Ruler of the Metaverse": { name: "Ruler of the Metaverse", expense: 1e90, tier: 38, description: "Unlocks Metaverse Perks, Metaverse Guards Job Category" },
     "A New Hope": { name: "A New Hope", expense: 1e95, tier: 39, description: "Faint Hope always at maximum" },
     "Time is a flat circle": { name: "Time is a flat circle", expense: 1e100, tier: 40, description: "Multiply Time Warping by 1000x, Multiply all xp gain by 1e50x" },
-    "The End is near": { name: "The End is near", expense: 1e200, tier: 50, description: "Unspent Multiverse Perk Points buffs Dark Matter" },
-    "The End": { name: "The End", expense: 1e300, tier: 99, description: "Congratulations! You have beaten the game!" },
+    "The End is near": { name: "The End is near", expense: 1e150, tier: 50, description: "Unspent Multiverse Perk Points buffs Dark Matter" },
+    "The End": { name: "The End", expense: 1e200, tier: 99, description: "Congratulations! You have beaten the game!" },
 
     "A New Path": { name: "A New Path", expense: 1e300, tier: 100, description: "Or have you?" },
     "Compacted Dark Orbs": { name: "Compacted Dark Orbs", expense: 1e305, tier: 101, description: "Unlocks The Monolith, Dark Cubes" },
