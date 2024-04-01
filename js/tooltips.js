@@ -214,4 +214,8 @@ const tooltips = {
     "Time is a flat circle": "This is a world where nothing is solved. Someone once told me, time is a flat circle. Everything we’ve ever done or will do, we’re gonna do over and over and over again.",
     "The End is near": "We don't try to live forever",
     "The End": "There is always an end",
+    
+    // Mythical Milestones
+    "A New Path": "You thought you were free",
+    "Compacted Dark Orbs": "You've collected so many dark orbs. You try to save space by fitting an infinite amount of dark orbs into a small space."
 }
