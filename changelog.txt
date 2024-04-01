@@ -1,3 +1,8 @@
+modded version 0.1 / 1.04.2024
+* Renamed to "Progress Knight Quest Mythical"
+* Added two new milestone. Not yet completed
+* Made a new logo
+
 version 2.4.0 / 20.02.2024
 * Added Evil perks
 
