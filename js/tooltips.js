@@ -223,5 +223,5 @@ const tooltips = {
     
     // Mythical Milestones
     "A New Path": "You thought you were free",
-    "The Monolith": "Someone or something is watching..."
+    "The Monolith": "Someone or something is watching...",
 }
