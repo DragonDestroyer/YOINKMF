@@ -488,12 +488,6 @@ const requirementsBaseData = {
     "Spaceship": new CoinRequirement([getQuerySelector("Spaceship")], [{ requirement: itemBaseData["Spaceship"].expense * 100 }]),
     "Planet": new CoinRequirement([getQuerySelector("Planet")], [{ requirement: itemBaseData["Planet"].expense * 100 }]),
     "Ringworld": new CoinRequirement([getQuerySelector("Ringworld")], [{ requirement: itemBaseData["Ringworld"].expense * 100 }]),
-    
-    "Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: itemBasedata["Aquanin Core"].expense * 100 }]),
-    "Terranin Core": new CoinRequirement([getQuerySelector("Terranin Core")], [{ requirement: itemBasedata["Terranin Core"].expense * 100 }]),
-    "Illuminin Core": new CoinRequirement([getQuerySelector("Illuminin Core")], [{ requirement: itemBasedata["Illuminin Core"].expense * 100 }]),
-    "C.R.E.S. Core": new CoinRequirement([getQuerySelector("C.R.E.S. Core")], [{ requirement: itemBasedata["C.R.E.S. Core"].expense * 100 }]),
-    "Vitrin Space": new CoinRequirement([getQuerySelector("Vitrin Space")], [{ requirement: itemBasedata["Vitrin Space"].expense * 100 }]),
 
     // heroic only Properties
     "Stellar Neighborhood": new CoinRequirement([getQuerySelector("Stellar Neighborhood")], [{ requirement: 1e65 }]),
@@ -504,6 +498,13 @@ const requirementsBaseData = {
     "Multiverse": new CoinRequirement([getQuerySelector("Multiverse")], [{ requirement: 1e116 }]),
     "Quantum World": new CoinRequirement([getQuerySelector("Quantum World")], [{ requirement: 1e124 }]),
     "Boötes Void": new CoinRequirement([getQuerySelector("Boötes Void")], [{ requirement: 1e152 }]),
+    
+    // mythical properties
+    "Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: itemBasedata["Aquanin Core"].expense * 100 }]),
+    "Terranin Core": new CoinRequirement([getQuerySelector("Terranin Core")], [{ requirement: itemBasedata["Terranin Core"].expense * 100 }]),
+    "Illuminin Core": new CoinRequirement([getQuerySelector("Illuminin Core")], [{ requirement: itemBasedata["Illuminin Core"].expense * 100 }]),
+    "C.R.E.S. Core": new CoinRequirement([getQuerySelector("C.R.E.S. Core")], [{ requirement: itemBasedata["C.R.E.S. Core"].expense * 100 }]),
+    "Vitrin Space": new CoinRequirement([getQuerySelector("Vitrin Space")], [{ requirement: itemBasedata["Vitrin Space"].expense * 100 }]),
 
     // Misc
     "Book": new CoinRequirement([getQuerySelector("Book")], [{ requirement: 0 }]),
@@ -654,7 +655,6 @@ const headerRowTextColors = {
     "Dark Milestones": "purple",
     "Metaverse Milestones": "purple",
     "Metaverse Guards": "purple",
-    "Mythical Milestones": "purple",
 }
 
 function getPreviousTaskInCategory(task) {
