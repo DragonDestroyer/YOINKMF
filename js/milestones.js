@@ -47,6 +47,9 @@ const milestoneBaseData = {
     "Time is a flat circle": { name: "Time is a flat circle", expense: 1e100, tier: 40, description: "Multiply Time Warping by 1000x, Multiply all xp gain by 1e50x" },
     "The End is near": { name: "The End is near", expense: 1e200, tier: 50, description: "Unspent Multiverse Perk Points buffs Dark Matter" },
     "The End": { name: "The End", expense: 1e300, tier: 99, description: "Congratulations! You have beaten the game!" },
+
+    "A New Path": { name: "A New Path", expense: 1e300, tier: 100, description: "Or have you?" },
+    "Compacted Dark Orbs": { name: "Compacted Dark Orbs", expense: 1e305, tier: 101, description: "Unlocks The Monolith, Dark Cubes" },
 }
 
 const milestoneCategories = {
@@ -54,6 +57,7 @@ const milestoneCategories = {
     "Heroic Milestones": ["New Beginning", "Rise of Great Heroes", "Lazy Heroes", "Dirty Heroes", "Angry Heroes", "Tired Heroes", "Scared Heroes", "Good Heroes", "Funny Heroes", "Beautiful Heroes", "Awesome Heroes", "Furious Heroes", "Superb Heroes", "A new beginning"],
     "Dark Milestones": ["Mind Control", "Galactic Emperor", "Dark Matter Harvester", "A Dark Era", "Dark Orbiter", "Dark Matter Mining", "The new gold", "The Devil inside you", "Strange Magic", "Speed speed speed", "Life is valueable", "Dark Matter Millionaire", "The new Dark Matter"],
     "Metaverse Milestones": ["Strong Hope", "Ruler of the Metaverse", "A New Hope", "Time is a flat circle", "The End is near", "The End"],
+    "Mythical Milestones": ["A New Path", "Compacted Dark Orbs"],
 }
 
 
