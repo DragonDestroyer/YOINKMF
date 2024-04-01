@@ -141,10 +141,10 @@ const tooltips = {
     "Boötes Void": "The Great Nothing",
     // Mythical Properties
     "Aquanin Core": "Using dark matter, you have found a way to generate an infinite amount of H₂0 at an infinite rate",
-    //"Terranin Core": "After destroying so many planets in reality, you've started collecting remanents of dead planets to build a super planet which you can harvest for an insane amount of dark matter",
-    //"Illuminin Core": "You have just finished collecting every single photon in reality and condendensed it into a single celestial-like space",
-    //"C.R.E.S.": "Creation, Restoration, Establishment System. You will use this to turn your planet into a dark matter generator",
-    //"Vitrin Space": "When activating your dark matter generator, something has gone horribly wrong. You just tore an unpatchable rip in reality, dooming everything that exists and everything that doesn't",
+    "Terranin Core": "After destroying so many planets in reality, you've started collecting remanents of dead planets to build a super planet which you can harvest for an insane amount of dark matter",
+    "Illuminin Core": "You have just finished collecting every single photon in reality and condendensed it into a single celestial-like space",
+    "C.R.E.S.": "Creation, Restoration, Establishment System. You will use this to turn your planet into a dark matter generator",
+    "Vitrin Space": "When activating your dark matter generator, something has gone horribly wrong. You just tore an unpatchable rip in reality, dooming everything that exists and everything that doesn't",
 
     // Misc
     "Book": "A place to write down all your thoughts and discoveries, allowing you to learn a lot more quickly.",
