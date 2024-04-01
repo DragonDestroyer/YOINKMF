@@ -279,7 +279,7 @@ const itemBaseData = {
     "Boötes Void": { name: "Boötes Void", expense: 3e74, effect: 1000000000000, heromult: 40, heroeffect: 1e80 },
 
     // Mythical Property
-    //"Aquanin Core": { name: "Aquanin Core", expense: 3e77, effect: 1000000000000000, heromult: 42, heroeffect: 1e84 },
+    "Aquanin Core": { name: "Aquanin Core", expense: 3e77, effect: 1000000000000000, heromult: 42, heroeffect: 1e84 },
     //"Terranin Core": { name: "Terranin Core", expense: 3e80, effect: 1000000000000000000, heromult: 42, heroeffect: 1e86 },
     //"Illuminin Core": { name: "Illuminin Core", expense: 3e83, effect: 1000000000000000000000, heromult: 42, heroeffect: 1e88 },
     //"C.R.E.S. Core": { name: "C.R.E.S. Core", expense: 3e87, effect: 10000000000000000000000000, heromult: 43, heroeffect: 1e90 },
@@ -500,7 +500,7 @@ const requirementsBaseData = {
     "Boötes Void": new CoinRequirement([getQuerySelector("Boötes Void")], [{ requirement: 1e152 }]),
     
     // mythical properties
-    //"Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: itemBasedata["Aquanin Core"].expense * 100 }]),
+    "Aquanin Core": new CoinRequirement([getQuerySelector("Aquanin Core")], [{ requirement: itemBasedata["Aquanin Core"].expense * 100 }]),
     //"Terranin Core": new CoinRequirement([getQuerySelector("Terranin Core")], [{ requirement: itemBasedata["Terranin Core"].expense * 100 }]),
     //"Illuminin Core": new CoinRequirement([getQuerySelector("Illuminin Core")], [{ requirement: itemBasedata["Illuminin Core"].expense * 100 }]),
     //"C.R.E.S. Core": new CoinRequirement([getQuerySelector("C.R.E.S. Core")], [{ requirement: itemBasedata["C.R.E.S. Core"].expense * 100 }]),
@@ -602,7 +602,7 @@ const skillCategories = {
 }
 
 const itemCategories = {
-    "Properties": ["Homeless", "Tent", "Wooden Hut", "Cottage", "House", "Large House", "Small Palace", "Grand Palace", "Town Ruler", "City Ruler", "Nation Ruler", "Pocket Dimension", "Void Realm", "Void Universe", "Astral Realm", "Galactic Throne", "Spaceship", "Planet", "Ringworld", "Stellar Neighborhood", "Galaxy", "Supercluster", "Galaxy Filament", "Observable Universe", "Multiverse", "Quantum World", "Boötes Void"], //"Aquanin Core", "Terranin Core", "Illuminin Core", "C.R.E.S. Core", "Vitrin Space"
+    "Properties": ["Homeless", "Tent", "Wooden Hut", "Cottage", "House", "Large House", "Small Palace", "Grand Palace", "Town Ruler", "City Ruler", "Nation Ruler", "Pocket Dimension", "Void Realm", "Void Universe", "Astral Realm", "Galactic Throne", "Spaceship", "Planet", "Ringworld", "Stellar Neighborhood", "Galaxy", "Supercluster", "Galaxy Filament", "Observable Universe", "Multiverse", "Quantum World", "Boötes Void", "Aquanin Core"], //"Terranin Core", "Illuminin Core", "C.R.E.S. Core", "Vitrin Space"
     "Misc": ["Book", "Dumbbells", "Personal Squire", "Steel Longsword", "Butler", "Sapphire Charm", "Study Desk", "Library", "Observatory", "Mind's Eye", "Void Necklace", "Void Armor", "Void Blade", "Void Orb", "Void Dust", "Celestial Robe", "Universe Fragment", "Multiverse Fragment", "Stairway to heaven", "Highway to hell", "Tesseract", "Desintegration", "Custom Galaxy", "Hypersphere"]
 }
 
