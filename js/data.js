@@ -658,6 +658,7 @@ const headerRowColors = {
     "Metaverse Guards": "rgb(9, 160, 230)",
     "Mythical Milestones": "#520A7C",
     "Mythical Alignments": "#520A7C",
+    "Mythical Powers": "#520A7C",
 }
 
 const headerRowTextColors = {
