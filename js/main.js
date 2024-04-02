@@ -79,6 +79,8 @@ function addMultipliers() {
             task.xpMultipliers.push(getBindedItemEffect("Mind's Eye"))
         } else if (skillCategories["Darkness"].includes(task.name)) {
             task.xpMultipliers.push(getDarknessXpGain)
+        } else if (skillCategories["Mythic Powers"].includes(task.name)) {
+            task.xpMultipliers.push(getBindedItemEffect("Aquanin Super Canon"))
         }
     }
 
