@@ -533,7 +533,7 @@ const requirementsBaseData = {
     "Sapphire Charm": new CoinRequirement([getQuerySelector("Sapphire Charm")], [{ requirement: itemBaseData["Sapphire Charm"].expense * 100 }]),
     "Study Desk": new CoinRequirement([getQuerySelector("Study Desk")], [{ requirement: itemBaseData["Study Desk"].expense * 100 }]),
     "Library": new CoinRequirement([getQuerySelector("Library")], [{ requirement: itemBaseData["Library"].expense * 100 }]),
-    "Stopwatch": new CoinRequirement([getQuerySelector("Stopwatch")], [{ requirement: itemBaseData["Stopwatch"].expense * 100 }]),
+    "Stopwatch": new CoinRequirement([getQuerySelector("Stopwatch")], [{ requirement: 1000 }]),
     "Observatory": new CoinRequirement([getQuerySelector("Observatory")], [{ requirement: itemBaseData["Observatory"].expense * 100 }]),
     "Mind's Eye": new CoinRequirement([getQuerySelector("Mind's Eye")], [{ requirement: itemBaseData["Mind's Eye"].expense * 100 }]),
     "Void Necklace": new CoinRequirement([getQuerySelector("Void Necklace")], [{ requirement: itemBaseData["Void Necklace"].expense * 100 }]),
