@@ -77,6 +77,7 @@ function addMultipliers() {
             task.xpMultipliers.push(getEssenceXpGain)
         } else if (skillCategories["Fundamentals"].includes(task.name)) {
             task.xpMultipliers.push(getBindedItemEffect("Mind's Eye"))
+            task.xpMultipliers.push(getBindedItemEffect("C.R.E.S. Planet Shield"))
         } else if (skillCategories["Darkness"].includes(task.name)) {
             task.xpMultipliers.push(getDarknessXpGain)
         } else if (skillCategories["Mythical Powers"].includes(task.name)) {
@@ -259,8 +260,9 @@ function getHappiness() {
     const multiverseFragment = getBindedItemEffect("Multiverse Fragment")
     const godsBlessings = gameData.requirements["God's Blessings"].isCompleted() ? 10000000 : 1
     const stairWayToHeaven = getBindedItemEffect("Stairway to heaven")
+    const AquaninSuperCanon = getBindedItemEffect("Aquanin Super Canon")
     const happiness = godsBlessings * meditationEffect() * butlerEffect() * mindreleaseEffect()
-        * multiverseFragment() * gameData.currentProperty.getEffect() * getChallengeBonus("an_unhappy_life") * stairWayToHeaven()
+        * multiverseFragment() * gameData.currentProperty.getEffect() * getChallengeBonus("an_unhappy_life") * stairWayToHeaven() * AquaninSuperCanon()
 
     if (gameData.active_challenge == "dance_with_the_devil") return Math.pow(happiness, 0.075)
     if (gameData.active_challenge == "an_unhappy_life") return Math.pow(happiness, 0.5)
@@ -357,10 +359,12 @@ function getEssenceGain() {
     const theNewGold = gameData.requirements["The new gold"].isCompleted() ? 1000 : 1
     const lifeIsValueable = gameData.requirements["Life is valueable"].isCompleted() ? gameData.dark_matter : 1
 
+    const IllumininCoreShield = gameData.itemData['Illuminin Core Shield'].getEffect()
+
     return essenceControl.getEffect() * essenceCollector.getEffect() * transcendentMaster.getEffect()
         * faintHope.getEffect() * rise.getEffect() * getChallengeBonus("dance_with_the_devil")
         * getAGiftFromGodEssenceGain() * darkMagician.getEffect() * getDarkMatterSkillEssence() 
-        * theNewGold * lifeIsValueable *  essenceMultGain()
+        * theNewGold * lifeIsValueable *  essenceMultGain() * (IllumininCoreShield == 0 ? 1 : IllumininCoreShield)
 }
 
 function getDarkMatterGain() {
@@ -370,11 +374,12 @@ function getDarkMatterGain() {
     const darkMatterMillionaire = gameData.requirements["Dark Matter Millionaire"].isCompleted() ? 500 : 1
     const Desintegration = gameData.itemData['Desintegration'].getEffect()
     const TheEndIsNear = getUnspentPerksDarkmatterGainBuff()
+    const TerraninControlUnit = gameData.itemData['Terranin Control Unit'].getEffect()
     const mythicalKnight = gameData.taskData["Mythical Knight"]
 
 
     return 1 * darkRuler.getEffect() * mythicalKnight.getEffect() * darkMatterHarvester * darkMatterMining * darkMatterMillionaire * getChallengeBonus("the_darkest_time") * getDarkMatterSkillDarkMater() * darkMatterMultGain() *
-        (Desintegration == 0 ? 1 : Desintegration) * TheEndIsNear
+        (Desintegration == 0 ? 1 : Desintegration) * (TerraninControlUnit == 0 ? 1 : TerraninControlUnit) * TheEndIsNear
 }
 
 function getDarkMatter() {

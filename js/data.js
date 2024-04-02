@@ -188,6 +188,8 @@ const jobBaseData = {
     "Player One": { name: "Player One", maxXp: Infinity, income: 2.5e54, heroxp: 1200 },
     "Lost in the dark": { name: "Lost in the dark", maxXp: Infinity, income: 2.5e58, heroxp: 1358 },
     "Omega": { name: "Omega", maxXp: Infinity, income: 2.5e62, heroxp: 3120 },
+
+    "Knight Of Good": { name: "Knight Of Good", maxXp: Infinity, income: 5e80, heroxp: 5120 },
 }
 
 const skillBaseData = {
@@ -244,7 +246,7 @@ const skillBaseData = {
     "Universal Ruler": { name: "Universal Ruler", maxXp: 100, heroxp: 500, effect: 1, description: "Magic XP" },
     "Blinded By Darkness": { name: "Blinded By Darkness", maxXp: 100, heroxp: 550, effect: 1, description: "All XP" },
 
-    "Mythical Knight": { name: "Mythical Knight", maxXp: 100, heroxp: 375, effect: 0.00015, description: "Dark Matter Gain" },
+    "Mythical Knight": { name: "Mythical Knight", maxXp: 100, heroxp: 375, effect: 0.0000001, description: "Dark Matter Gain" },
 }
 
 const itemBaseData = {
@@ -312,11 +314,11 @@ const itemBaseData = {
     "Desintegration": { name: "Desintegration", expense: 1e55, effect: 1, description: "Dark Matter Gain", heromult: 30, heroeffect: 100 },
     "Custom Galaxy": { name: "Custom Galaxy", expense: 1e64, effect: 1, description: "Skill XP", heromult: 30, heroeffect: 1e100 },
     "Hypersphere": { name: "Hypersphere", expense: 1e91, effect: 1, description: "Hypercube Gain", heromult: 30, heroeffect: 1e50 },
-    "Aquanin Super Canon": { name: "Aquanin Super Canon", expense: 1e92, effect: 10, description: "Happiness", heromult: 30, heroeffect: 1e100 },
-    "Terranin Control Unit": { name: "Terranin Control Unit", expense: 1e93, effect: 1, description: "Dark Matter Gain", heromult: 30, heroeffect: 1e100 },
-    "Illuminin Core Shield": { name: "Illuminin Core Shield", expense: 1e94, effect: 1, description: "Essence Gain", heromult: 30, heroeffect: 1e100 },
-    "C.R.E.S. Planet Shield": { name: "C.R.E.S. Planet Shield", expense: 1e95, effect: 1, description: "Small Hypercube Gain", heromult: 30, heroeffect: 1e100 },
-    "Hadalen Essence": { name: "Hadalen Essence", expense: 1e105, effect: 1, description: "HUGE Hypercube Gain", heromult: 30, heroeffect: 1e100 },
+    "Aquanin Super Canon": { name: "Aquanin Super Canon", expense: 1e92, effect: 100, description: "Happiness", heromult: 30, heroeffect: 1e100 },
+    "Terranin Control Unit": { name: "Terranin Control Unit", expense: 1e93, effect: 1, description: "Dark Matter Gain", heromult: 30, heroeffect: 100 },
+    "Illuminin Core Shield": { name: "Illuminin Core Shield", expense: 1e94, effect: 1000, description: "Essence Gain", heromult: 30, heroeffect: 1e100 },
+    "C.R.E.S. Planet Shield": { name: "C.R.E.S. Planet Shield", expense: 1e95, effect: 1e10, description: "Fundamentals XP", heromult: 30, heroeffect: 1e100 },
+    "Hadalen Essence": { name: "Hadalen Essence", expense: 1e105, effect: 1e5, description: "Hypercube Gain", heromult: 30, heroeffect: 1e100 },
 }
 
 const requirementsBaseData = {
@@ -414,6 +416,9 @@ const requirementsBaseData = {
     "Player One": new TaskRequirement([getQuerySelector("Player One")], [{ task: "Snow Crash", requirement: 1000, herequirement: 160000 }]),
     "Lost in the dark": new TaskRequirement([getQuerySelector("Lost in the dark")], [{ task: "Player One", requirement: 2500, herequirement: 158000 }]),
     "Omega": new TaskRequirement([getQuerySelector("Omega")], [{ task: "Lost in the dark", requirement: 25000, herequirement: 185000 }]),
+
+    // Mythical Knights
+    "Knight Of Good": new TaskRequirement([getQuerySelector("Knight Of Good")], [{ task: "Omega", requirement: 100000, herequirement: 190000 }]),
 
     // Fundamentals
     "Concentration": new TaskRequirement([getQuerySelector("Concentration")], []),
@@ -603,7 +608,8 @@ const jobCategories = {
     "The Arcane Association": ["Student", "Apprentice Mage", "Adept Mage", "Master Wizard", "Archmage", "Chronomancer", "Chairman", "Imperator"],
     "The Void": ["Corrupted", "Void Slave", "Void Fiend", "Abyss Anomaly", "Void Wraith", "Void Reaver", "Void Lord", "Abyss God"],
     "Galactic Council": ["Eternal Wanderer", "Nova", "Sigma Proioxis", "Acallaris", "One Above All"],
-    "Metaverse Guards": ["Snow Crash", "Player One", "Lost in the dark", "Omega"]
+    "Metaverse Guards": ["Snow Crash", "Player One", "Lost in the dark", "Omega"],
+    "Mythical Alignments": ["Knight Of Good"],
 }
 
 const skillCategories = {
@@ -647,6 +653,7 @@ const headerRowColors = {
     "Metaverse Milestones": "#09a0e6",
     "Metaverse Guards": "rgb(9, 160, 230)",
     "Mythical Milestones": "#520A7C",
+    "Mythical Alignments": "#520A7C",
 }
 
 const headerRowTextColors = {

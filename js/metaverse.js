@@ -3,8 +3,10 @@ function getHypercubeGeneration() {
 
     let tesseractEffect = gameData.itemData["Tesseract"].getEffect()
     let hypersphereEffect = gameData.itemData["Hypersphere"].getEffect()
+    let hadalenessenceEffect = gameData.itemData["Hadalen Essence"].getEffect()
+    
 
-    return 0.03 * hypersphereEffect * tesseractEffect * gameData.metaverse.hypercube_gain_modifier * (gameData.perks.hypercube_boost == 1 ? 10 : 1)
+    return 0.03 * hadalenessenceEffect * hypersphereEffect * tesseractEffect * gameData.metaverse.hypercube_gain_modifier * (gameData.perks.hypercube_boost == 1 ? 10 : 1)
         * (gameData.perks.hyper_speed == 1 ? 1000 : 1)
 }
 

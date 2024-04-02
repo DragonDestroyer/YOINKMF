@@ -50,6 +50,9 @@ const tooltips = {
     "Lost in the dark": "They both knew they would only go forward when next to each other. They vowed that they would always be together, earn a lot of money and move to a better place where they would be very happy.",
     "Omega": "ω",
 
+    // Mythical Knights
+    "Knight Of Good": "The first of the 9 progress knights",
+
     // Fundamentals
     "Concentration": "Improve your learning speed through practising intense concentration activities.",
     "Productivity": "Learn to procrastinate less at work and receive more job experience per day.",
