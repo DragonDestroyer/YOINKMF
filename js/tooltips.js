@@ -181,6 +181,7 @@ const tooltips = {
     "Illuminin Core Shield": "You put every light source into one small space, how the hell did you think you could do that without safety measures?",
     "C.R.E.S. Planet Shield": "It's a shield the size of a super planet controlled by another remote thingy. Idk what you were expecting in this tooltip",
     "Hadalen Essence": "I got it from a comic a while ago, its sorta like if you took stuff out of a black hole and morphed the matter with your mind. Cool shit.",
+    "Cosmic String": "Cosmic strings, if they exist, would be extremely thin with diameters of the same order of magnitude as that of a proton, i.e. ~ 1 fm, or smaller",
 
     // Essence Milestones
     "Magic Eye": "The Eye in your Amulet starts to glow.",
