@@ -369,10 +369,11 @@ function getDarkMatterGain() {
     const darkMatterMining = gameData.requirements["Dark Matter Mining"].isCompleted() ? 3 : 1
     const darkMatterMillionaire = gameData.requirements["Dark Matter Millionaire"].isCompleted() ? 500 : 1
     const Desintegration = gameData.itemData['Desintegration'].getEffect()
-    const TheEndIsNear = getUnspentPerksDarkmatterGainBuff() 
+    const TheEndIsNear = getUnspentPerksDarkmatterGainBuff()
+    const mythicalKnight = game.Data.taskData["Mythical Knight"]
 
 
-    return 1 * darkRuler.getEffect() * darkMatterHarvester * darkMatterMining * darkMatterMillionaire * getChallengeBonus("the_darkest_time") * getDarkMatterSkillDarkMater() * darkMatterMultGain() *
+    return 1 * darkRuler.getEffect() * mythicalKnight.getEffect() * darkMatterHarvester * darkMatterMining * darkMatterMillionaire * getChallengeBonus("the_darkest_time") * getDarkMatterSkillDarkMater() * darkMatterMultGain() *
         (Desintegration == 0 ? 1 : Desintegration) * TheEndIsNear
 }
 
