@@ -536,6 +536,11 @@ const requirementsBaseData = {
     "Desintegration": new CoinRequirement([getQuerySelector("Desintegration")], [{ requirement: 1e122 }]),
     "Custom Galaxy": new CoinRequirement([getQuerySelector("Custom Galaxy")], [{ requirement: 1e134 }]),
     "Hypersphere": new CoinRequirement([getQuerySelector("Hypersphere")], [{ requirement: 1e160 }]),
+    "Aquanin Super Canon": new CoinRequirement([getQuerySelector("Aquanin Super Canon")], [{ requirement: 1e163 }]),
+    "Terranin Control Unit": new CoinRequirement([getQuerySelector("Terranin Control Unit")], [{ requirement: 1e164 }]),
+    "Illuminin Core Shield": new CoinRequirement([getQuerySelector("Illuminin Core Shield")], [{ requirement: 1e165 }]),
+    "C.R.E.S. Planet Shield": new CoinRequirement([getQuerySelector("C.R.E.S. Planet Shield")], [{ requirement: 1e166 }]),
+    "Hadalen Essence": new CoinRequirement([getQuerySelector("Hadalen Essence")], [{ requirement: 1e169 }]),
     
 
     // Milestones
@@ -608,7 +613,7 @@ const skillCategories = {
 
 const itemCategories = {
     "Properties": ["Homeless", "Tent", "Wooden Hut", "Cottage", "House", "Large House", "Small Palace", "Grand Palace", "Town Ruler", "City Ruler", "Nation Ruler", "Pocket Dimension", "Void Realm", "Void Universe", "Astral Realm", "Galactic Throne", "Spaceship", "Planet", "Ringworld", "Stellar Neighborhood", "Galaxy", "Supercluster", "Galaxy Filament", "Observable Universe", "Multiverse", "Quantum World", "Boötes Void", "Aquanin Core", "Terranin Core", "Illuminin Core", "C.R.E.S. Core", "Vitrin Space"], 
-    "Misc": ["Book", "Dumbbells", "Personal Squire", "Steel Longsword", "Butler", "Sapphire Charm", "Study Desk", "Library", "Observatory", "Mind's Eye", "Void Necklace", "Void Armor", "Void Blade", "Void Orb", "Void Dust", "Celestial Robe", "Universe Fragment", "Multiverse Fragment", "Stairway to heaven", "Highway to hell", "Tesseract", "Desintegration", "Custom Galaxy", "Hypersphere"]
+    "Misc": ["Book", "Dumbbells", "Personal Squire", "Steel Longsword", "Butler", "Sapphire Charm", "Study Desk", "Library", "Observatory", "Mind's Eye", "Void Necklace", "Void Armor", "Void Blade", "Void Orb", "Void Dust", "Celestial Robe", "Universe Fragment", "Multiverse Fragment", "Stairway to heaven", "Highway to hell", "Tesseract", "Desintegration", "Custom Galaxy", "Hypersphere", "Aquanin Super Canon", "Terranin Control Unit", "Illuminin Core Shield", "C.R.E.S. Planet Shield", "Hadalen Essence"]
 }
 
 const headerRowColors = {
