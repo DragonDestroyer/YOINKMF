@@ -213,7 +213,7 @@ const skillBaseData = {
     "Intimidation": { name: "Intimidation", maxXp: 100, heroxp: 157, effect: -0.01, description: "Reduced Expenses" },
     "Demon Training": { name: "Demon Training", maxXp: 100, heroxp: 174, effect: 0.01, description: "All XP" },
     "Blood Meditation": { name: "Blood Meditation", maxXp: 100, heroxp: 176, effect: 0.01, description: "Evil Gain" },
-    "Demon's Wealth": { name: "Demon's Wealth", maxXp: 100, heroxp: 178, effect: 0.002, description: "Hero Pay" },
+    "Demon's Wealth": { name: "Demon's Wealth", maxXp: 100, heroxp: 178, effect: 10, description: "Hero Pay" }, // effect: 0.002
     "Dark Knowledge": { name: "Dark Knowledge", maxXp: 100, heroxp: 180, effect: 0.003, description: "Hero XP" },
 
     "Void Influence": { name: "Void Influence", maxXp: 100, heroxp: 206, effect: 0.0028, description: "All XP" },
@@ -331,6 +331,7 @@ const requirementsBaseData = {
     "Dark Milestones": new EssenceRequirement([removeSpaces(".Dark Milestones")], [{ requirement: 5e10 }]),
     "Metaverse Milestones": new EssenceRequirement([removeSpaces(".Metaverse Milestones")], [{ requirement: 1e60 }]),
     "Metaverse Guards": new EssenceRequirement([removeSpaces(".Metaverse Guards")], [{ requirement: 1e90 }]),
+    "Mythical Powers": new AgeRequirement([removeSpaces(".Mythical Powers")], [{ requirement: 1000000000000000000000000000 }]),
     
     // Rebirth items
     "Rebirth tab": new AgeRequirement(["#rebirthTabButton"], [{ requirement: 25 }]),
@@ -608,7 +609,8 @@ const skillCategories = {
     "Void Manipulation": ["Absolute Wish", "Void Amplification", "Mind Release", "Ceaseless Abyss", "Void Symbiosis", "Void Embodiment", "Abyss Manipulation"],
     "Celestial Powers": ["Cosmic Longevity", "Cosmic Recollection", "Essence Collector", "Galactic Command"],
     "Almightiness": ["Yin Yang", "Parallel Universe", "Higher Dimensions", "Epiphany"],
-    "Darkness": ["Dark Prince", "Dark Ruler", "Immortal Ruler", "Dark Magician", "Universal Ruler", "Blinded By Darkness"]
+    "Darkness": ["Dark Prince", "Dark Ruler", "Immortal Ruler", "Dark Magician", "Universal Ruler", "Blinded By Darkness"],
+    "Mythical Powers": []
 }
 
 const itemCategories = {
