@@ -171,6 +171,11 @@ const tooltips = {
     "Desintegration": "Why do you need it?",
     "Custom Galaxy": "You know about the pocket dimension, right?",
     "Hypersphere": "You gain the limitless pow... ah, you're already omnipotent...",
+    "Aquanin Super Canon": "Isn't it kinda pointless? You already have desintegration",
+    "Terranin Control Unit": "It's sort of like a TV remote...Except you instead control the density of any solids that exist",
+    "Illuminin Core Shield": "You put every light source into one small space, how the hell did you think you could do that without safety measures?",
+    "C.R.E.S. Planet Shield": "It's a shield the size of a super planet controlled by another remote thingy. Idk what you were expecting in this tooltip",
+    "Hadalen Essence": "I got it from a comic a while ago, its sorta like if you took stuff out of a black hole and morphed the matter with your mind. Cool shit.",
 
     // Essence Milestones
     "Magic Eye": "The Eye in your Amulet starts to glow.",
