@@ -79,7 +79,7 @@ function addMultipliers() {
             task.xpMultipliers.push(getBindedItemEffect("Mind's Eye"))
         } else if (skillCategories["Darkness"].includes(task.name)) {
             task.xpMultipliers.push(getDarknessXpGain)
-        } else if (skillCategories["Mythic Powers"].includes(task.name)) {
+        } else if (skillCategories["Mythical Powers"].includes(task.name)) {
             task.xpMultipliers.push(getBindedItemEffect("Aquanin Super Canon"))
         }
     }
@@ -370,7 +370,7 @@ function getDarkMatterGain() {
     const darkMatterMillionaire = gameData.requirements["Dark Matter Millionaire"].isCompleted() ? 500 : 1
     const Desintegration = gameData.itemData['Desintegration'].getEffect()
     const TheEndIsNear = getUnspentPerksDarkmatterGainBuff()
-    const mythicalKnight = game.Data.taskData["Mythical Knight"]
+    const mythicalKnight = gameData.taskData["Mythical Knight"]
 
 
     return 1 * darkRuler.getEffect() * mythicalKnight.getEffect() * darkMatterHarvester * darkMatterMining * darkMatterMillionaire * getChallengeBonus("the_darkest_time") * getDarkMatterSkillDarkMater() * darkMatterMultGain() *
