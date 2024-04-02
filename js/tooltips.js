@@ -160,6 +160,7 @@ const tooltips = {
     "Sapphire Charm": "Embedded with a rare sapphire, this charm activates more mana channels within your body, providing a much easier time learning magic.",
     "Study Desk": "A dedicated area which provides many fine stationary and equipment designed for furthering your progress in research.",
     "Library": "Stores a collection of books, each containing vast amounts of information from basic life skills to complex magic spells.",
+    "Stopwatch": "Picking it up you see a fast forward button on the side. Pressing it multiplies your time warping.",
     "Observatory": "Used for observing terrestrial, marine and celestial events.",
     "Mind's Eye": "Lets you see memories, remember images, and even see new pictures and ideas.",
     "Void Necklace": "Helps you shape and manipulate void matter, even transmute and rebuild it into anything of your choosing.",
