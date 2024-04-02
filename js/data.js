@@ -315,10 +315,11 @@ const itemBaseData = {
     "Custom Galaxy": { name: "Custom Galaxy", expense: 1e64, effect: 1, description: "Skill XP", heromult: 30, heroeffect: 1e100 },
     "Hypersphere": { name: "Hypersphere", expense: 1e91, effect: 1, description: "Hypercube Gain", heromult: 30, heroeffect: 1e50 },
     "Aquanin Super Canon": { name: "Aquanin Super Canon", expense: 1e92, effect: 100, description: "Happiness", heromult: 30, heroeffect: 1e100 },
-    "Terranin Control Unit": { name: "Terranin Control Unit", expense: 1e93, effect: 1, description: "Dark Matter Gain", heromult: 30, heroeffect: 100 },
-    "Illuminin Core Shield": { name: "Illuminin Core Shield", expense: 1e94, effect: 1000, description: "Essence Gain", heromult: 30, heroeffect: 1e100 },
-    "C.R.E.S. Planet Shield": { name: "C.R.E.S. Planet Shield", expense: 1e95, effect: 1e10, description: "Fundamentals XP", heromult: 30, heroeffect: 1e100 },
-    "Hadalen Essence": { name: "Hadalen Essence", expense: 1e105, effect: 1e5, description: "Hypercube Gain", heromult: 30, heroeffect: 1e100 },
+    "Terranin Control Unit": { name: "Terranin Control Unit", expense: 1e93, effect: 1, description: "Hypercube Gain", heromult: 30, heroeffect: 100 },
+    "Illuminin Core Shield": { name: "Illuminin Core Shield", expense: 1e94, effect: 1000, description: "Essence Gain", heromult: 30, heroeffect: 100 },
+    "C.R.E.S. Planet Shield": { name: "C.R.E.S. Planet Shield", expense: 1e95, effect: 1e10, description: "Fundamentals XP", heromult: 30, heroeffect: 100 },
+    "Hadalen Essence": { name: "Hadalen Essence", expense: 1e105, effect: 1e5, description: "Dark Matter Gain", heromult: 30, heroeffect: 100 },
+    "Cosmic String": { name: "Cosmic String", expense: 1e110, effect: 100000, description: "Perk Point Gain", heromult: 30, heroeffect: 100 },
 }
 
 const requirementsBaseData = {
@@ -552,6 +553,7 @@ const requirementsBaseData = {
     "Illuminin Core Shield": new CoinRequirement([getQuerySelector("Illuminin Core Shield")], [{ requirement: 1e165 }]),
     "C.R.E.S. Planet Shield": new CoinRequirement([getQuerySelector("C.R.E.S. Planet Shield")], [{ requirement: 1e166 }]),
     "Hadalen Essence": new CoinRequirement([getQuerySelector("Hadalen Essence")], [{ requirement: 1e169 }]),
+    "Cosmic String": new CoinRequirement([getQuerySelector("Cosmic String")], [{ requirement: 1e172 }]),
     
 
     // Milestones
@@ -626,7 +628,7 @@ const skillCategories = {
 
 const itemCategories = {
     "Properties": ["Homeless", "Tent", "Wooden Hut", "Cottage", "House", "Large House", "Small Palace", "Grand Palace", "Town Ruler", "City Ruler", "Nation Ruler", "Pocket Dimension", "Void Realm", "Void Universe", "Astral Realm", "Galactic Throne", "Spaceship", "Planet", "Ringworld", "Stellar Neighborhood", "Galaxy", "Supercluster", "Galaxy Filament", "Observable Universe", "Multiverse", "Quantum World", "Boötes Void", "Aquanin Core", "Terranin Core", "Illuminin Core", "C.R.E.S. Core", "Vitrin Space"], 
-    "Misc": ["Book", "Dumbbells", "Personal Squire", "Steel Longsword", "Butler", "Sapphire Charm", "Study Desk", "Library", "Observatory", "Mind's Eye", "Void Necklace", "Void Armor", "Void Blade", "Void Orb", "Void Dust", "Celestial Robe", "Universe Fragment", "Multiverse Fragment", "Stairway to heaven", "Highway to hell", "Tesseract", "Desintegration", "Custom Galaxy", "Hypersphere", "Aquanin Super Canon", "Terranin Control Unit", "Illuminin Core Shield", "C.R.E.S. Planet Shield", "Hadalen Essence"]
+    "Misc": ["Book", "Dumbbells", "Personal Squire", "Steel Longsword", "Butler", "Sapphire Charm", "Study Desk", "Library", "Observatory", "Mind's Eye", "Void Necklace", "Void Armor", "Void Blade", "Void Orb", "Void Dust", "Celestial Robe", "Universe Fragment", "Multiverse Fragment", "Stairway to heaven", "Highway to hell", "Tesseract", "Desintegration", "Custom Galaxy", "Hypersphere", "Aquanin Super Canon", "Terranin Control Unit", "Illuminin Core Shield", "C.R.E.S. Planet Shield", "Hadalen Essence", "Cosmic String"]
 }
 
 const headerRowColors = {
