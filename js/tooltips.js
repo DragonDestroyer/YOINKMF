@@ -112,7 +112,7 @@ const tooltips = {
     "Blinded By Darkness": "Blinded by darkness, you can no longer control yourself. You start to destroy everything in existence to calm yourself.",
 
     // Mythical
-    "Mythical Knight": "Rebirthing again and again, you find yourself stuck in a loop. You try anything to break free from this immortal curse"
+    "Mythical Knight": "Rebirthing again and again, you find yourself stuck in a loop. You try anything to break free from this immortal curse",
     // Properties
     "Homeless": "Sleep on the uncomfortable, filthy streets while almost freezing to death every night. It cannot get any worse than this.",
     "Tent": "A thin sheet of tattered cloth held up by a couple of feeble, wooden sticks. Horrible living conditions but at least you have a roof over your head.",
