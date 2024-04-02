@@ -243,6 +243,8 @@ const skillBaseData = {
     "Dark Magician": { name: "Dark Magician", maxXp: 100, heroxp: 475, effect: 0.0000025, description: "Essence Gain" },
     "Universal Ruler": { name: "Universal Ruler", maxXp: 100, heroxp: 500, effect: 1, description: "Magic XP" },
     "Blinded By Darkness": { name: "Blinded By Darkness", maxXp: 100, heroxp: 550, effect: 1, description: "All XP" },
+
+    "Mythical Knight": { name: "Mythical Knight", maxXp: 100, heroxp: 375, effect: 0.00015, description: "Dark Matter Gain" },
 }
 
 const itemBaseData = {
@@ -474,6 +476,9 @@ const requirementsBaseData = {
     "Universal Ruler": new DarkMatterRequirement([getQuerySelector("Universal Ruler")], [{ requirement: 1e3 }]),
     "Blinded By Darkness": new DarkMatterRequirement([getQuerySelector("Blinded By Darkness")], [{ requirement: 1e4 }]),
 
+    // Mythical
+    "Mythical Knight": new AgeRequirement([getQuerySelector("Mythical Knight")], [{ requirement: 1000000000000000000000000000 }]),
+
     // Properties
     "Homeless": new CoinRequirement([getQuerySelector("Homeless")], [{ requirement: 0 }]),
     "Tent": new CoinRequirement([getQuerySelector("Tent")], [{ requirement: 0 }]),
@@ -610,7 +615,7 @@ const skillCategories = {
     "Celestial Powers": ["Cosmic Longevity", "Cosmic Recollection", "Essence Collector", "Galactic Command"],
     "Almightiness": ["Yin Yang", "Parallel Universe", "Higher Dimensions", "Epiphany"],
     "Darkness": ["Dark Prince", "Dark Ruler", "Immortal Ruler", "Dark Magician", "Universal Ruler", "Blinded By Darkness"],
-    "Mythical Powers": []
+    "Mythical Powers": ["Mythical Knight"],
 }
 
 const itemCategories = {
